@@ -1,4 +1,4 @@
-package Threads.Executor;
+package Threads.sampleThreadV3;
 
 public class CounterThread implements Runnable {
     int num;
@@ -13,4 +13,5 @@ public class CounterThread implements Runnable {
         System.out.println("Hello " + Thread.currentThread().getName() + "number " + num);
 
     }
+
 }
